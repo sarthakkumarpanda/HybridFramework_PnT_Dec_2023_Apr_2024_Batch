@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\sarth\eclipse-workspace\Hybrid_Framework_PnT_Dec_2023_Mar_2024\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithInvalidCredentials">verifyLoginWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithInvalidEmailValidPassword">verifyLoginWithInvalidEmailValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithNoCredentials">verifyLoginWithNoCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials(seleniumpanda5@gmail.com, Selenium@123)">verifyLoginWithValidCredentials(seleniumpanda5@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials(seleniumpanda4@gmail.com, Selenium@123)">verifyLoginWithValidCredentials(seleniumpanda4@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials(seleniumpanda3@gmail.com, Selenium@123)">verifyLoginWithValidCredentials(seleniumpanda3@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials(seleniumpanda1@gmail.com, Selenium@123)">verifyLoginWithValidCredentials(seleniumpanda1@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials(seleniumpanda6@gmail.com, Selenium@123)">verifyLoginWithValidCredentials(seleniumpanda6@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials(seleniumpanda@gmail.com, Selenium@123)">verifyLoginWithValidCredentials(seleniumpanda@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials(seleniumpanda7@gmail.com, Selenium@123)">verifyLoginWithValidCredentials(seleniumpanda7@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials(seleniumpanda2@gmail.com, Selenium@123)">verifyLoginWithValidCredentials(seleniumpanda2@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithValidEmailInvalidPassword">verifyLoginWithValidEmailInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterWithAllDetails">verifyRegisterWithAllDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterWithExistingEmail">verifyRegisterWithExistingEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterWithNoDetails">verifyRegisterWithNoDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisterWithWrongConfirmPassword">verifyRegisterWithWrongConfirmPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.SearchProductTest" class="method navigator-link" hash-for-method="verifySearchInvalidProduct">verifySearchInvalidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.SearchProductTest" class="method navigator-link" hash-for-method="verifySearchNoProduct">verifySearchNoProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tutorialsNinja.TestCases.SearchProductTest" class="method navigator-link" hash-for-method="verifySearchValidProduct">verifySearchValidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tutorialsNinja.TestCases.SearchProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchInvalidProduct">
+                  </a> <!-- verifySearchInvalidProduct -->
+                  <span class="method-name">verifySearchInvalidProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchNoProduct">
+                  </a> <!-- verifySearchNoProduct -->
+                  <span class="method-name">verifySearchNoProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchValidProduct">
+                  </a> <!-- verifySearchValidProduct -->
+                  <span class="method-name">verifySearchValidProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tutorialsNinja.TestCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInvalidCredentials">
+                  </a> <!-- verifyLoginWithInvalidCredentials -->
+                  <span class="method-name">verifyLoginWithInvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInvalidEmailValidPassword">
+                  </a> <!-- verifyLoginWithInvalidEmailValidPassword -->
+                  <span class="method-name">verifyLoginWithInvalidEmailValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithNoCredentials">
+                  </a> <!-- verifyLoginWithNoCredentials -->
+                  <span class="method-name">verifyLoginWithNoCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials(seleniumpanda5@gmail.com, Selenium@123)">
+                  </a> <!-- verifyLoginWithValidCredentials(seleniumpanda5@gmail.com, Selenium@123) -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda5@gmail.com,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials(seleniumpanda4@gmail.com, Selenium@123)">
+                  </a> <!-- verifyLoginWithValidCredentials(seleniumpanda4@gmail.com, Selenium@123) -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda4@gmail.com,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials(seleniumpanda3@gmail.com, Selenium@123)">
+                  </a> <!-- verifyLoginWithValidCredentials(seleniumpanda3@gmail.com, Selenium@123) -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda3@gmail.com,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials(seleniumpanda1@gmail.com, Selenium@123)">
+                  </a> <!-- verifyLoginWithValidCredentials(seleniumpanda1@gmail.com, Selenium@123) -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda1@gmail.com,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials(seleniumpanda6@gmail.com, Selenium@123)">
+                  </a> <!-- verifyLoginWithValidCredentials(seleniumpanda6@gmail.com, Selenium@123) -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda6@gmail.com,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials(seleniumpanda@gmail.com, Selenium@123)">
+                  </a> <!-- verifyLoginWithValidCredentials(seleniumpanda@gmail.com, Selenium@123) -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda@gmail.com,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials(seleniumpanda7@gmail.com, Selenium@123)">
+                  </a> <!-- verifyLoginWithValidCredentials(seleniumpanda7@gmail.com, Selenium@123) -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda7@gmail.com,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials(seleniumpanda2@gmail.com, Selenium@123)">
+                  </a> <!-- verifyLoginWithValidCredentials(seleniumpanda2@gmail.com, Selenium@123) -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda2@gmail.com,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidEmailInvalidPassword">
+                  </a> <!-- verifyLoginWithValidEmailInvalidPassword -->
+                  <span class="method-name">verifyLoginWithValidEmailInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tutorialsNinja.TestCases.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterWithAllDetails">
+                  </a> <!-- verifyRegisterWithAllDetails -->
+                  <span class="method-name">verifyRegisterWithAllDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterWithExistingEmail">
+                  </a> <!-- verifyRegisterWithExistingEmail -->
+                  <span class="method-name">verifyRegisterWithExistingEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">
+                  </a> <!-- verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123) -->
+                  <span class="method-name">verifyRegisterWithMandatoryDetails</span>
+                  <span class="parameters">(Selenium,Panda,2147483647,Selenium@123,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">
+                  </a> <!-- verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123) -->
+                  <span class="method-name">verifyRegisterWithMandatoryDetails</span>
+                  <span class="parameters">(Selenium,Panda,2147483647,Selenium@123,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">
+                  </a> <!-- verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123) -->
+                  <span class="method-name">verifyRegisterWithMandatoryDetails</span>
+                  <span class="parameters">(Selenium,Panda,2147483647,Selenium@123,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">
+                  </a> <!-- verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123) -->
+                  <span class="method-name">verifyRegisterWithMandatoryDetails</span>
+                  <span class="parameters">(Selenium,Panda,2147483647,Selenium@123,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">
+                  </a> <!-- verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123) -->
+                  <span class="method-name">verifyRegisterWithMandatoryDetails</span>
+                  <span class="parameters">(Selenium,Panda,2147483647,Selenium@123,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">
+                  </a> <!-- verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123) -->
+                  <span class="method-name">verifyRegisterWithMandatoryDetails</span>
+                  <span class="parameters">(Selenium,Panda,2147483647,Selenium@123,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">
+                  </a> <!-- verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123) -->
+                  <span class="method-name">verifyRegisterWithMandatoryDetails</span>
+                  <span class="parameters">(Selenium,Panda,2147483647,Selenium@123,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)">
+                  </a> <!-- verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123) -->
+                  <span class="method-name">verifyRegisterWithMandatoryDetails</span>
+                  <span class="parameters">(Selenium,Panda,2147483647,Selenium@123,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterWithNoDetails">
+                  </a> <!-- verifyRegisterWithNoDetails -->
+                  <span class="method-name">verifyRegisterWithNoDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterWithWrongConfirmPassword">
+                  </a> <!-- verifyRegisterWithWrongConfirmPassword -->
+                  <span class="method-name">verifyRegisterWithWrongConfirmPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sarth\eclipse-workspace\Hybrid_Framework_PnT_Dec_2023_Mar_2024\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tutorialsNinja.TestCases.RegisterTest&quot;/&gt;
+      &lt;class name=&quot;com.tutorialsNinja.TestCases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.tutorialsNinja.TestCases.SearchProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifySearchInvalidProduct')
+data.setCell(0, 2, 'com.tutorialsNinja.TestCases.SearchProductTest')
+data.setCell(0, 3, 1687);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyRegisterWithMandatoryDetails')
+data.setCell(1, 2, 'com.tutorialsNinja.TestCases.RegisterTest')
+data.setCell(1, 3, 1436);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyRegisterWithMandatoryDetails')
+data.setCell(2, 2, 'com.tutorialsNinja.TestCases.RegisterTest')
+data.setCell(2, 3, 1431);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyRegisterWithMandatoryDetails')
+data.setCell(3, 2, 'com.tutorialsNinja.TestCases.RegisterTest')
+data.setCell(3, 3, 1431);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyRegisterWithMandatoryDetails')
+data.setCell(4, 2, 'com.tutorialsNinja.TestCases.RegisterTest')
+data.setCell(4, 3, 1413);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyRegisterWithMandatoryDetails')
+data.setCell(5, 2, 'com.tutorialsNinja.TestCases.RegisterTest')
+data.setCell(5, 3, 1397);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyRegisterWithAllDetails')
+data.setCell(6, 2, 'com.tutorialsNinja.TestCases.RegisterTest')
+data.setCell(6, 3, 1391);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyRegisterWithMandatoryDetails')
+data.setCell(7, 2, 'com.tutorialsNinja.TestCases.RegisterTest')
+data.setCell(7, 3, 1383);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyRegisterWithMandatoryDetails')
+data.setCell(8, 2, 'com.tutorialsNinja.TestCases.RegisterTest')
+data.setCell(8, 3, 1377);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyRegisterWithMandatoryDetails')
+data.setCell(9, 2, 'com.tutorialsNinja.TestCases.RegisterTest')
+data.setCell(9, 3, 1338);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyRegisterWithWrongConfirmPassword')
+data.setCell(10, 2, 'com.tutorialsNinja.TestCases.RegisterTest')
+data.setCell(10, 3, 1122);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyLoginWithValidCredentials')
+data.setCell(11, 2, 'com.tutorialsNinja.TestCases.LoginTest')
+data.setCell(11, 3, 1062);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyLoginWithValidCredentials')
+data.setCell(12, 2, 'com.tutorialsNinja.TestCases.LoginTest')
+data.setCell(12, 3, 1037);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyLoginWithValidCredentials')
+data.setCell(13, 2, 'com.tutorialsNinja.TestCases.LoginTest')
+data.setCell(13, 3, 1025);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyLoginWithValidCredentials')
+data.setCell(14, 2, 'com.tutorialsNinja.TestCases.LoginTest')
+data.setCell(14, 3, 1024);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyLoginWithValidCredentials')
+data.setCell(15, 2, 'com.tutorialsNinja.TestCases.LoginTest')
+data.setCell(15, 3, 1021);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyRegisterWithExistingEmail')
+data.setCell(16, 2, 'com.tutorialsNinja.TestCases.RegisterTest')
+data.setCell(16, 3, 1020);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyLoginWithValidCredentials')
+data.setCell(17, 2, 'com.tutorialsNinja.TestCases.LoginTest')
+data.setCell(17, 3, 1010);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyLoginWithValidCredentials')
+data.setCell(18, 2, 'com.tutorialsNinja.TestCases.LoginTest')
+data.setCell(18, 3, 1002);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyLoginWithValidCredentials')
+data.setCell(19, 2, 'com.tutorialsNinja.TestCases.LoginTest')
+data.setCell(19, 3, 977);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyLoginWithInvalidEmailValidPassword')
+data.setCell(20, 2, 'com.tutorialsNinja.TestCases.LoginTest')
+data.setCell(20, 3, 812);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyLoginWithInvalidCredentials')
+data.setCell(21, 2, 'com.tutorialsNinja.TestCases.LoginTest')
+data.setCell(21, 3, 790);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyLoginWithValidEmailInvalidPassword')
+data.setCell(22, 2, 'com.tutorialsNinja.TestCases.LoginTest')
+data.setCell(22, 3, 765);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyLoginWithNoCredentials')
+data.setCell(23, 2, 'com.tutorialsNinja.TestCases.LoginTest')
+data.setCell(23, 3, 597);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifySearchValidProduct')
+data.setCell(24, 2, 'com.tutorialsNinja.TestCases.SearchProductTest')
+data.setCell(24, 3, 565);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyRegisterWithNoDetails')
+data.setCell(25, 2, 'com.tutorialsNinja.TestCases.RegisterTest')
+data.setCell(25, 3, 559);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifySearchNoProduct')
+data.setCell(26, 2, 'com.tutorialsNinja.TestCases.SearchProductTest')
+data.setCell(26, 3, 481);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tutorialsNinja.TestCases.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</span>
+                <span class="method-start">4548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5964 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">6068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</span>
+                <span class="method-start">14508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">15990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</span>
+                <span class="method-start">19892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21324 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">21428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</span>
+                <span class="method-start">25030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26409 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">26506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</span>
+                <span class="method-start">30562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31994 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">32110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</span>
+                <span class="method-start">36057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">37554 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</span>
+                <span class="method-start">41371 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42808 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">42914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterWithMandatoryDetails(Selenium, Panda, 2147483647, Selenium@123, Selenium@123)</span>
+                <span class="method-start">46899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">48328 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterWithAllDetails</span>
+                <span class="method-start">52030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53422 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">53510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterWithExistingEmail</span>
+                <span class="method-start">57161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58182 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">58294 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterWithWrongConfirmPassword</span>
+                <span class="method-start">62094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">registerSetup</span>
+                <span class="method-start">63309 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterWithNoDetails</span>
+                <span class="method-start">67506 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68066 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tutorialsNinja.TestCases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">68226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials(seleniumpanda@gmail.com, Selenium@123)</span>
+                <span class="method-start">71629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72607 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">72728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials(seleniumpanda1@gmail.com, Selenium@123)</span>
+                <span class="method-start">76441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77478 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">77575 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials(seleniumpanda2@gmail.com, Selenium@123)</span>
+                <span class="method-start">81368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">82370 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">82472 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials(seleniumpanda3@gmail.com, Selenium@123)</span>
+                <span class="method-start">86106 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">87267 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials(seleniumpanda4@gmail.com, Selenium@123)</span>
+                <span class="method-start">90790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91815 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">91898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials(seleniumpanda5@gmail.com, Selenium@123)</span>
+                <span class="method-start">95543 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96566 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">96672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials(seleniumpanda6@gmail.com, Selenium@123)</span>
+                <span class="method-start">100484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101494 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">101604 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials(seleniumpanda7@gmail.com, Selenium@123)</span>
+                <span class="method-start">105215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106241 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">106341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidEmailInvalidPassword</span>
+                <span class="method-start">109911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">110677 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">110786 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInvalidEmailValidPassword</span>
+                <span class="method-start">114221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">115034 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">115140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInvalidCredentials</span>
+                <span class="method-start">118680 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">119470 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">119577 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithNoCredentials</span>
+                <span class="method-start">125108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">125705 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tutorialsNinja.TestCases.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">125815 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchValidProduct</span>
+                <span class="method-start">129984 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">130550 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">130655 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchInvalidProduct</span>
+                <span class="method-start">132899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSetup</span>
+                <span class="method-start">134738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchNoProduct</span>
+                <span class="method-start">138161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">138642 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

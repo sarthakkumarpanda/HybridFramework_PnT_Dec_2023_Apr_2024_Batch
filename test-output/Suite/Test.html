@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 12 21:33:45 EDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>140 seconds (140044 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.tutorialsNinja.TestCases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.tutorialsNinja.TestCases.LoginTest@235ecd9f</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.tutorialsNinja.TestCases.LoginTest<br>Parameters: seleniumpanda5@gmail.com, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.LoginTest@235ecd9f</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithMandatoryDetails()'><b>verifyRegisterWithMandatoryDetails</b><br>Test class: com.tutorialsNinja.TestCases.RegisterTest<br>Parameters: Selenium, Panda, 2147483647, Selenium@123, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.RegisterTest@13e344d</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithMandatoryDetails()'><b>verifyRegisterWithMandatoryDetails</b><br>Test class: com.tutorialsNinja.TestCases.RegisterTest<br>Parameters: Selenium, Panda, 2147483647, Selenium@123, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.RegisterTest@13e344d</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithNoDetails()'><b>verifyRegisterWithNoDetails</b><br>Test class: com.tutorialsNinja.TestCases.RegisterTest</td>
+<td></td>
+<td>0</td>
+<td>com.tutorialsNinja.TestCases.RegisterTest@13e344d</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.SearchProductTest.verifySearchNoProduct()'><b>verifySearchNoProduct</b><br>Test class: com.tutorialsNinja.TestCases.SearchProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.tutorialsNinja.TestCases.SearchProductTest@1ca3b418</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.tutorialsNinja.TestCases.LoginTest<br>Parameters: seleniumpanda4@gmail.com, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.LoginTest@235ecd9f</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithAllDetails()'><b>verifyRegisterWithAllDetails</b><br>Test class: com.tutorialsNinja.TestCases.RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.RegisterTest@13e344d</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.tutorialsNinja.TestCases.LoginTest<br>Parameters: seleniumpanda3@gmail.com, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.LoginTest@235ecd9f</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithMandatoryDetails()'><b>verifyRegisterWithMandatoryDetails</b><br>Test class: com.tutorialsNinja.TestCases.RegisterTest<br>Parameters: Selenium, Panda, 2147483647, Selenium@123, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.RegisterTest@13e344d</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.tutorialsNinja.TestCases.LoginTest<br>Parameters: seleniumpanda1@gmail.com, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.LoginTest@235ecd9f</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.tutorialsNinja.TestCases.LoginTest<br>Parameters: seleniumpanda6@gmail.com, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.LoginTest@235ecd9f</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithMandatoryDetails()'><b>verifyRegisterWithMandatoryDetails</b><br>Test class: com.tutorialsNinja.TestCases.RegisterTest<br>Parameters: Selenium, Panda, 2147483647, Selenium@123, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.RegisterTest@13e344d</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithWrongConfirmPassword()'><b>verifyRegisterWithWrongConfirmPassword</b><br>Test class: com.tutorialsNinja.TestCases.RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.RegisterTest@13e344d</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.SearchProductTest.verifySearchValidProduct()'><b>verifySearchValidProduct</b><br>Test class: com.tutorialsNinja.TestCases.SearchProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.tutorialsNinja.TestCases.SearchProductTest@1ca3b418</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithInvalidEmailValidPassword()'><b>verifyLoginWithInvalidEmailValidPassword</b><br>Test class: com.tutorialsNinja.TestCases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.tutorialsNinja.TestCases.LoginTest@235ecd9f</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithMandatoryDetails()'><b>verifyRegisterWithMandatoryDetails</b><br>Test class: com.tutorialsNinja.TestCases.RegisterTest<br>Parameters: Selenium, Panda, 2147483647, Selenium@123, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.RegisterTest@13e344d</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.tutorialsNinja.TestCases.LoginTest<br>Parameters: seleniumpanda@gmail.com, Selenium@123</td>
+<td></td>
+<td>0</td>
+<td>com.tutorialsNinja.TestCases.LoginTest@235ecd9f</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.tutorialsNinja.TestCases.LoginTest<br>Parameters: seleniumpanda7@gmail.com, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.LoginTest@235ecd9f</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithValidEmailInvalidPassword()'><b>verifyLoginWithValidEmailInvalidPassword</b><br>Test class: com.tutorialsNinja.TestCases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.tutorialsNinja.TestCases.LoginTest@235ecd9f</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithExistingEmail()'><b>verifyRegisterWithExistingEmail</b><br>Test class: com.tutorialsNinja.TestCases.RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.RegisterTest@13e344d</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.tutorialsNinja.TestCases.LoginTest<br>Parameters: seleniumpanda2@gmail.com, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.LoginTest@235ecd9f</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithNoCredentials()'><b>verifyLoginWithNoCredentials</b><br>Test class: com.tutorialsNinja.TestCases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.tutorialsNinja.TestCases.LoginTest@235ecd9f</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithMandatoryDetails()'><b>verifyRegisterWithMandatoryDetails</b><br>Test class: com.tutorialsNinja.TestCases.RegisterTest<br>Parameters: Selenium, Panda, 2147483647, Selenium@123, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.RegisterTest@13e344d</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.SearchProductTest.verifySearchInvalidProduct()'><b>verifySearchInvalidProduct</b><br>Test class: com.tutorialsNinja.TestCases.SearchProductTest</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.SearchProductTest@1ca3b418</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithMandatoryDetails()'><b>verifyRegisterWithMandatoryDetails</b><br>Test class: com.tutorialsNinja.TestCases.RegisterTest<br>Parameters: Selenium, Panda, 2147483647, Selenium@123, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.RegisterTest@13e344d</td></tr>
+<tr>
+<td title='com.tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithMandatoryDetails()'><b>verifyRegisterWithMandatoryDetails</b><br>Test class: com.tutorialsNinja.TestCases.RegisterTest<br>Parameters: Selenium, Panda, 2147483647, Selenium@123, Selenium@123</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsNinja.TestCases.RegisterTest@13e344d</td></tr>
+</table><p>
+</body>
+</html>
