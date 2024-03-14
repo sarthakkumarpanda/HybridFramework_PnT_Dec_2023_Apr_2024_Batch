@@ -16,7 +16,7 @@ import com.aventstack.extentreports.Status;
 import com.tutorialsNinja.Utilities.ExtentReporter;
 
 public class MyListeners implements ITestListener{
-	public  ExtentReports extentReport;
+	public ExtentReports extentReport;
 	public ExtentTest extentTest;
 	public WebDriver driver;
 	public String testName;
@@ -42,14 +42,12 @@ public class MyListeners implements ITestListener{
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		testName = result.getName();
 		//System.out.println(testName + "--->Executed Successfully");
 		extentTest.log(Status.PASS, testName + "--->Executed Successfully");
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		testName = result.getName();
 		driver = null;
 		try {
 			driver  = (WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
@@ -67,11 +65,13 @@ public class MyListeners implements ITestListener{
 		}
 		
 		extentTest.addScreenCaptureFromPath(destinationFile);
+		extentTest.log(Status.INFO, result.getThrowable());
+		extentTest.log(Status.FAIL, testName +  "got failed");
+		
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		testName = result.getName();
 		System.out.println(testName + "--->Execution Skipped");
 		System.out.println(result.getThrowable());
 	}
@@ -82,14 +82,16 @@ public class MyListeners implements ITestListener{
 	public void onFinish(ITestContext context) {
 		System.out.println("Project Execution Finished");
 		extentReport.flush();
-		String pathOfExtentReport = System.getProperty("user.dir") + "\\test-output\\ExtentReports\\extentreport.html";
-		File newExtentReportPath = new File(pathOfExtentReport);
-		
+		String pathOfExtentReport = System.getProperty("user.dir")+"\\test-output\\ExtentReports\\extentreport.html";
+		File extentReport = new File(pathOfExtentReport);
 		try {
-			Desktop.getDesktop().browse(newExtentReportPath.toURI());
+			Desktop.getDesktop().browse(extentReport.toURI());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
+		
+		
 	}
 
 }

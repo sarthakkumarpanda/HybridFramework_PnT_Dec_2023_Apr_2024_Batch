@@ -8,8 +8,8 @@
 
 	<test name="Test">
 		<classes>
-			<class name="com.tutorialsNinja.TestCases.RegisterTest" />
-			<class name="com.tutorialsNinja.TestCases.LoginTest" />
+			<class name="com.tutorialsNinja.TestCases.RegisterTest" /> 
+			<class name="com.tutorialsNinja.TestCases.LoginTest" />  
 			<class name="com.tutorialsNinja.TestCases.SearchProductTest" />
 		</classes>
 	</test> <!-- Test -->
