@@ -1,0 +1,59 @@
+CONFIGURE Email Notification in JENKINS [Very Important]
+
+For practice purpose, create an email. I have created an email known as whateveremailid@gmail.com
+Then there are 2 steps which needs to be done which are important in case you want to make sure your jenkins jobs are sending the emails.
+Step 1- open myaccount.google.com in another tab and click on Security. 
+        make sure the 2-step verification is On. 
+Step 2- click on 2-step verification after it is On and give the password and then scroll down to the bottom of the page. There you will see App passwords.
+        Create any app. I created something like Gmail and then the system auto generated a password for me which is 'jqqr ebeb uuyo eolf' 
+Note - You have to use this password 'jqqr ebeb uuyo eolf'
+
+        
+Manage Jenkins > System Configuration > System 
+There are two areas which are important in this configuration
+
+1. Extended E-mail Notification
+2. E-mail Notification
+
+Let's first do point no 2. E-mail Notification
+Since I am using a gmail therefore the SMTP Server will be stmp.gmail.com
+if you want you can give @gmail.com in Default user e-mail suffix	
+Click on Advanced
+Click on checkbox SMTP Authentication and give User Name - whateveremailid@gmail.com and give Password - jqqr ebeb uuyo eolf
+Click on Checkbox Use SSL
+And give the SMTP Port to be 465 for gmail.
+
+Click on the checkbox 'Test configuration by sending test e-mail'
+Enter any email or sarthakjenkins1984@gmail.com in the Test e-mail recipient and click on the button 'Test Configuration'
+It should show 'Email was successfully sent' and then go and check your inbox. If it gives any error, then please do all configurations carefully again and try.
+
+
+Now we have to take care of point no 1. Extended E-mail Notification
+Give SMTP server as smtp.gmail.com
+SMTP Port as 465
+Click on Advanced > Add(Jenkins)
+Give the username as whateveremailid@gmail.com
+Give the password as jqqr ebeb uuyo eolf
+Give any Description in case you want to and then click on Add. Giving Description is a good practice.
+
+Now click on the Credentials drop down and select the right option.
+Click on SSL Checkbox
+Give Default Content Type to be HTML(text/html)
+
+Default Recipients - give email id as you want
+Default Subject
+Default Content
+Maximum Attachment Size
+
+All the above 3 keep it as mentioned. Else if you want to edit something hopefully you know what to edit.
+
+Click on Apply and Save
+
+Go to Dashboard and click on the job. Click on Configure
+Scroll to the bottom and see in Attachments in you want to attach anything in Attach Build Log
+Scroll to further bottom and click on Add-post build action
+Select Editable Email Notification
+
+Apply and Save
+
+Then run the job. Check the email recipients inbox
