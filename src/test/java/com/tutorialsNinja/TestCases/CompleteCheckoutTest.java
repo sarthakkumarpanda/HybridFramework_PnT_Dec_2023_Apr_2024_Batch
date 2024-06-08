@@ -38,19 +38,7 @@ public class CompleteCheckoutTest extends TestBase {
 	
 	
 	@Test(priority=2)
-	public void validateProductAddedInAddToCartPageWithCertainPrice() {
-		addtocartpage = productpage.clickOnAddToCartButton();
-		Assert.assertTrue(addtocartpage.displayStatusOfLaptopPrice());
-		driver.findElement(By.id("button-cart")).click();
-		
-		String actualSuccessMessage = driver.findElement(By.xpath("//div[contains(@class, 'alert-dismissible')]")).getText();
-		String expectedSuccessMessage = "Success: You have added ";
-		Assert.assertTrue(actualSuccessMessage.contains(expectedSuccessMessage));
-
-	}
-	
-	@Test(priority=3)
-	public void validateTotalProductsInCartAndClickOnCartButton() {
+	public void validateCompleteCheckoutWithValidProductPositiveFlow(){
 		addtocartpage = productpage.clickOnAddToCartButton();
 		Assert.assertTrue(addtocartpage.displayStatusOfLaptopPrice());
 		driver.findElement(By.id("button-cart")).click();
@@ -61,10 +49,10 @@ public class CompleteCheckoutTest extends TestBase {
 		
 		Assert.assertTrue(driver.findElement(By.xpath(" //span[@id = 'cart-total'][text() = ' 1 item(s) - $122.00']")).isDisplayed());
 		driver.findElement(By.id("cart")).click();
-		
-		
-		
+
 	}
+
+
 
 	
 	@AfterMethod
