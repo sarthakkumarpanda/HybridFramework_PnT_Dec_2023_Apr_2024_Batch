@@ -11,6 +11,7 @@
 			<class name="com.tutorialsNinja.TestCases.RegisterTest" /> 
 			<class name="com.tutorialsNinja.TestCases.LoginTest" />  
 			<class name="com.tutorialsNinja.TestCases.SearchProductTest" />
+			<class name="com.tutorialsNinja.TestCases.CompleteCheckoutTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
