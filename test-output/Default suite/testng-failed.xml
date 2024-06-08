@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tutorialsNinja.TestCases.SearchProductTest">
+      <class name="com.tutorialsNinja.TestCases.CompleteCheckoutTest">
         <methods>
-          <include name="loginSetup"/>
-          <include name="verifySearchInvalidProduct"/>
+          <include name="validateTotalProductsInCartAndClickOnCartButton"/>
           <include name="tearDown"/>
+          <include name="completeCheckOutSetup"/>
         </methods>
-      </class> <!-- com.tutorialsNinja.TestCases.SearchProductTest -->
+      </class> <!-- com.tutorialsNinja.TestCases.CompleteCheckoutTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -12,9 +12,11 @@ public class ProductPage {
 	@FindBy(linkText = "HP LP3065")
 	private WebElement validProduct;
 	
-	
 	@FindBy(xpath = "//p[text() = 'There is no product that matches the search criteria.']")
 	private WebElement invalidProductMessage;
+	
+	@FindBy(css = "div.button-group>button:nth-child(1)")
+	private WebElement addToCartButton;
 	
 	public ProductPage(WebDriver driver) {
 		this.driver = driver;
@@ -29,5 +31,11 @@ public class ProductPage {
 	public boolean verifyInvalidProductWarningMessageDisplay() {
 		boolean displayStatus = invalidProductMessage.isDisplayed();
 		return displayStatus;
+	}
+	
+	
+	public AddToCartPage clickOnAddToCartButton() {
+		addToCartButton.click();
+		return new AddToCartPage(driver);
 	}
 }
