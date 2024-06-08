@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="27" passed="26" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-19T18:12:03 EDT" name="Suite" finished-at="2024-03-19T18:14:32 EDT" duration-ms="148864">
+  <suite started-at="2024-06-08T12:38:12 EDT" name="Suite" finished-at="2024-06-08T12:41:07 EDT" duration-ms="174749">
     <groups>
     </groups>
-    <test started-at="2024-03-19T18:12:03 EDT" name="Test" finished-at="2024-03-19T18:14:32 EDT" duration-ms="148864">
+    <test started-at="2024-06-08T12:38:12 EDT" name="Test" finished-at="2024-06-08T12:41:07 EDT" duration-ms="174749">
       <class name="com.tutorialsNinja.TestCases.SearchProductTest">
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.SearchProductTest@6bbe85a8]" started-at="2024-03-19T18:14:20 EDT" name="loginSetup" finished-at="2024-03-19T18:14:23 EDT" duration-ms="3170" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.SearchProductTest@3c41ed1d]" started-at="2024-06-08T12:40:51 EDT" name="loginSetup" finished-at="2024-06-08T12:40:54 EDT" duration-ms="3703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifySearchValidProduct()[pri:1, instance:com.tutorialsNinja.TestCases.SearchProductTest@6bbe85a8]" started-at="2024-03-19T18:14:23 EDT" name="verifySearchValidProduct" finished-at="2024-03-19T18:14:24 EDT" duration-ms="610" status="PASS">
+        <test-method signature="verifySearchValidProduct()[pri:1, instance:com.tutorialsNinja.TestCases.SearchProductTest@3c41ed1d]" started-at="2024-06-08T12:40:54 EDT" name="verifySearchValidProduct" finished-at="2024-06-08T12:40:55 EDT" duration-ms="978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchValidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.SearchProductTest@6bbe85a8]" started-at="2024-03-19T18:14:24 EDT" name="tearDown" finished-at="2024-03-19T18:14:24 EDT" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.SearchProductTest@3c41ed1d]" started-at="2024-06-08T12:40:55 EDT" name="tearDown" finished-at="2024-06-08T12:40:56 EDT" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.SearchProductTest@6bbe85a8]" started-at="2024-03-19T18:14:24 EDT" name="loginSetup" finished-at="2024-03-19T18:14:26 EDT" duration-ms="2068" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.SearchProductTest@3c41ed1d]" started-at="2024-06-08T12:40:56 EDT" name="loginSetup" finished-at="2024-06-08T12:41:00 EDT" duration-ms="4157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifySearchInvalidProduct()[pri:2, instance:com.tutorialsNinja.TestCases.SearchProductTest@6bbe85a8]" started-at="2024-03-19T18:14:26 EDT" name="verifySearchInvalidProduct" finished-at="2024-03-19T18:14:28 EDT" duration-ms="1787" status="FAIL">
+        <test-method signature="verifySearchInvalidProduct()[pri:2, instance:com.tutorialsNinja.TestCases.SearchProductTest@3c41ed1d]" started-at="2024-06-08T12:41:00 EDT" name="verifySearchInvalidProduct" finished-at="2024-06-08T12:41:00 EDT" duration-ms="675" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -69,29 +69,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchInvalidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.SearchProductTest@6bbe85a8]" started-at="2024-03-19T18:14:28 EDT" name="tearDown" finished-at="2024-03-19T18:14:28 EDT" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.SearchProductTest@3c41ed1d]" started-at="2024-06-08T12:41:01 EDT" name="tearDown" finished-at="2024-06-08T12:41:02 EDT" duration-ms="1012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.SearchProductTest@6bbe85a8]" started-at="2024-03-19T18:14:28 EDT" name="loginSetup" finished-at="2024-03-19T18:14:31 EDT" duration-ms="3303" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.SearchProductTest@3c41ed1d]" started-at="2024-06-08T12:41:02 EDT" name="loginSetup" finished-at="2024-06-08T12:41:06 EDT" duration-ms="4492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifySearchNoProduct()[pri:3, instance:com.tutorialsNinja.TestCases.SearchProductTest@6bbe85a8]" started-at="2024-03-19T18:14:31 EDT" name="verifySearchNoProduct" finished-at="2024-03-19T18:14:32 EDT" duration-ms="542" status="PASS">
+        <test-method signature="verifySearchNoProduct()[pri:3, instance:com.tutorialsNinja.TestCases.SearchProductTest@3c41ed1d]" started-at="2024-06-08T12:41:06 EDT" name="verifySearchNoProduct" finished-at="2024-06-08T12:41:07 EDT" duration-ms="582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchNoProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.SearchProductTest@6bbe85a8]" started-at="2024-03-19T18:14:32 EDT" name="tearDown" finished-at="2024-03-19T18:14:32 EDT" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.SearchProductTest@3c41ed1d]" started-at="2024-06-08T12:41:07 EDT" name="tearDown" finished-at="2024-06-08T12:41:07 EDT" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tutorialsNinja.TestCases.SearchProductTest -->
       <class name="com.tutorialsNinja.TestCases.RegisterTest">
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:05 EDT" name="registerSetup" finished-at="2024-03-19T18:12:11 EDT" duration-ms="6169" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:13 EDT" name="registerSetup" finished-at="2024-06-08T12:38:19 EDT" duration-ms="5895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:11 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-03-19T18:12:13 EDT" duration-ms="1710" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:19 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-06-08T12:38:21 EDT" duration-ms="2037" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,15 +122,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithMandatoryDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:13 EDT" name="tearDown" finished-at="2024-03-19T18:12:13 EDT" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:21 EDT" name="tearDown" finished-at="2024-06-08T12:38:21 EDT" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:13 EDT" name="registerSetup" finished-at="2024-03-19T18:12:17 EDT" duration-ms="4232" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:21 EDT" name="registerSetup" finished-at="2024-06-08T12:38:26 EDT" duration-ms="4787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:17 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-03-19T18:12:19 EDT" duration-ms="1598" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:26 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-06-08T12:38:28 EDT" duration-ms="1989" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -161,15 +161,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithMandatoryDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:19 EDT" name="tearDown" finished-at="2024-03-19T18:12:19 EDT" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:28 EDT" name="tearDown" finished-at="2024-06-08T12:38:28 EDT" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:19 EDT" name="registerSetup" finished-at="2024-03-19T18:12:23 EDT" duration-ms="4592" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:28 EDT" name="registerSetup" finished-at="2024-06-08T12:38:33 EDT" duration-ms="4568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:23 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-03-19T18:12:25 EDT" duration-ms="1598" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:33 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-06-08T12:38:35 EDT" duration-ms="2400" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -200,15 +200,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithMandatoryDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:25 EDT" name="tearDown" finished-at="2024-03-19T18:12:25 EDT" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:35 EDT" name="tearDown" finished-at="2024-06-08T12:38:35 EDT" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:25 EDT" name="registerSetup" finished-at="2024-03-19T18:12:29 EDT" duration-ms="4308" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:35 EDT" name="registerSetup" finished-at="2024-06-08T12:38:40 EDT" duration-ms="4733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:29 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-03-19T18:12:31 EDT" duration-ms="1513" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:40 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-06-08T12:38:42 EDT" duration-ms="2069" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -239,15 +239,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithMandatoryDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:31 EDT" name="tearDown" finished-at="2024-03-19T18:12:31 EDT" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:42 EDT" name="tearDown" finished-at="2024-06-08T12:38:43 EDT" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:31 EDT" name="registerSetup" finished-at="2024-03-19T18:12:35 EDT" duration-ms="4238" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:43 EDT" name="registerSetup" finished-at="2024-06-08T12:38:47 EDT" duration-ms="4783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:35 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-03-19T18:12:37 EDT" duration-ms="1581" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:47 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-06-08T12:38:49 EDT" duration-ms="1996" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -278,15 +278,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithMandatoryDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:37 EDT" name="tearDown" finished-at="2024-03-19T18:12:37 EDT" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:49 EDT" name="tearDown" finished-at="2024-06-08T12:38:49 EDT" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:37 EDT" name="registerSetup" finished-at="2024-03-19T18:12:41 EDT" duration-ms="4023" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:49 EDT" name="registerSetup" finished-at="2024-06-08T12:38:54 EDT" duration-ms="4720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:41 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-03-19T18:12:43 EDT" duration-ms="1760" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:54 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-06-08T12:38:56 EDT" duration-ms="2001" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -317,15 +317,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithMandatoryDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:43 EDT" name="tearDown" finished-at="2024-03-19T18:12:43 EDT" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:56 EDT" name="tearDown" finished-at="2024-06-08T12:38:56 EDT" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:43 EDT" name="registerSetup" finished-at="2024-03-19T18:12:47 EDT" duration-ms="4248" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:38:56 EDT" name="registerSetup" finished-at="2024-06-08T12:39:01 EDT" duration-ms="4912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:47 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-03-19T18:12:49 EDT" duration-ms="1719" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:01 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-06-08T12:39:04 EDT" duration-ms="3128" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -356,15 +356,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithMandatoryDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:49 EDT" name="tearDown" finished-at="2024-03-19T18:12:49 EDT" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:04 EDT" name="tearDown" finished-at="2024-06-08T12:39:05 EDT" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:49 EDT" name="registerSetup" finished-at="2024-03-19T18:12:54 EDT" duration-ms="4625" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:05 EDT" name="registerSetup" finished-at="2024-06-08T12:39:09 EDT" duration-ms="4807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:54 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-03-19T18:12:55 EDT" duration-ms="1697" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:09 EDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-06-08T12:39:11 EDT" duration-ms="1908" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -395,65 +395,65 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithMandatoryDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:55 EDT" name="tearDown" finished-at="2024-03-19T18:12:56 EDT" duration-ms="133" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:11 EDT" name="tearDown" finished-at="2024-06-08T12:39:12 EDT" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:12:56 EDT" name="registerSetup" finished-at="2024-03-19T18:13:00 EDT" duration-ms="4142" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:12 EDT" name="registerSetup" finished-at="2024-06-08T12:39:16 EDT" duration-ms="4800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithAllDetails()[pri:2, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:13:00 EDT" name="verifyRegisterWithAllDetails" finished-at="2024-03-19T18:13:01 EDT" duration-ms="1598" status="PASS">
+        <test-method signature="verifyRegisterWithAllDetails()[pri:2, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:16 EDT" name="verifyRegisterWithAllDetails" finished-at="2024-06-08T12:39:18 EDT" duration-ms="2011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithAllDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:13:01 EDT" name="tearDown" finished-at="2024-03-19T18:13:01 EDT" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:18 EDT" name="tearDown" finished-at="2024-06-08T12:39:19 EDT" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:13:01 EDT" name="registerSetup" finished-at="2024-03-19T18:13:06 EDT" duration-ms="4257" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:19 EDT" name="registerSetup" finished-at="2024-06-08T12:39:23 EDT" duration-ms="4679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithExistingEmail()[pri:3, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:13:06 EDT" name="verifyRegisterWithExistingEmail" finished-at="2024-03-19T18:13:07 EDT" duration-ms="1315" status="PASS">
+        <test-method signature="verifyRegisterWithExistingEmail()[pri:3, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:23 EDT" name="verifyRegisterWithExistingEmail" finished-at="2024-06-08T12:39:25 EDT" duration-ms="1507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithExistingEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:13:07 EDT" name="tearDown" finished-at="2024-03-19T18:13:07 EDT" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:25 EDT" name="tearDown" finished-at="2024-06-08T12:39:25 EDT" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:13:07 EDT" name="registerSetup" finished-at="2024-03-19T18:13:12 EDT" duration-ms="4426" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:25 EDT" name="registerSetup" finished-at="2024-06-08T12:39:30 EDT" duration-ms="4793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithWrongConfirmPassword()[pri:4, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:13:12 EDT" name="verifyRegisterWithWrongConfirmPassword" finished-at="2024-03-19T18:13:13 EDT" duration-ms="1269" status="PASS">
+        <test-method signature="verifyRegisterWithWrongConfirmPassword()[pri:4, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:30 EDT" name="verifyRegisterWithWrongConfirmPassword" finished-at="2024-06-08T12:39:31 EDT" duration-ms="1606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithWrongConfirmPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:13:13 EDT" name="tearDown" finished-at="2024-03-19T18:13:13 EDT" duration-ms="143" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:31 EDT" name="tearDown" finished-at="2024-06-08T12:39:32 EDT" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:13:13 EDT" name="registerSetup" finished-at="2024-03-19T18:13:18 EDT" duration-ms="4530" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:32 EDT" name="registerSetup" finished-at="2024-06-08T12:39:36 EDT" duration-ms="4862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithNoDetails()[pri:5, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:13:18 EDT" name="verifyRegisterWithNoDetails" finished-at="2024-03-19T18:13:18 EDT" duration-ms="600" status="PASS">
+        <test-method signature="verifyRegisterWithNoDetails()[pri:5, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:36 EDT" name="verifyRegisterWithNoDetails" finished-at="2024-06-08T12:39:37 EDT" duration-ms="623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithNoDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@738dc9b]" started-at="2024-03-19T18:13:18 EDT" name="tearDown" finished-at="2024-03-19T18:13:18 EDT" duration-ms="162" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@47eaca72]" started-at="2024-06-08T12:39:37 EDT" name="tearDown" finished-at="2024-06-08T12:39:37 EDT" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tutorialsNinja.TestCases.RegisterTest -->
       <class name="com.tutorialsNinja.TestCases.LoginTest">
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:18 EDT" name="loginSetup" finished-at="2024-03-19T18:13:22 EDT" duration-ms="3938" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:39:37 EDT" name="loginSetup" finished-at="2024-06-08T12:39:42 EDT" duration-ms="4492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:22 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-03-19T18:13:24 EDT" duration-ms="1282" status="PASS">
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:39:42 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-06-08T12:39:43 EDT" duration-ms="1229" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -469,15 +469,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:24 EDT" name="tearDown" finished-at="2024-03-19T18:13:24 EDT" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:39:43 EDT" name="tearDown" finished-at="2024-06-08T12:39:43 EDT" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:24 EDT" name="loginSetup" finished-at="2024-03-19T18:13:28 EDT" duration-ms="4263" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:39:43 EDT" name="loginSetup" finished-at="2024-06-08T12:39:48 EDT" duration-ms="4397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:28 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-03-19T18:13:29 EDT" duration-ms="1053" status="PASS">
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:39:48 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-06-08T12:39:49 EDT" duration-ms="1368" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -493,15 +493,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:29 EDT" name="tearDown" finished-at="2024-03-19T18:13:29 EDT" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:39:49 EDT" name="tearDown" finished-at="2024-06-08T12:39:49 EDT" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:29 EDT" name="loginSetup" finished-at="2024-03-19T18:13:33 EDT" duration-ms="3914" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:39:49 EDT" name="loginSetup" finished-at="2024-06-08T12:39:54 EDT" duration-ms="4422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:33 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-03-19T18:13:34 EDT" duration-ms="1125" status="PASS">
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:39:54 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-06-08T12:39:55 EDT" duration-ms="1285" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -517,15 +517,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:34 EDT" name="tearDown" finished-at="2024-03-19T18:13:34 EDT" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:39:55 EDT" name="tearDown" finished-at="2024-06-08T12:39:55 EDT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:34 EDT" name="loginSetup" finished-at="2024-03-19T18:13:38 EDT" duration-ms="3990" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:39:55 EDT" name="loginSetup" finished-at="2024-06-08T12:40:00 EDT" duration-ms="4496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:38 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-03-19T18:13:39 EDT" duration-ms="1160" status="PASS">
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:00 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-06-08T12:40:01 EDT" duration-ms="1463" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -541,15 +541,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:39 EDT" name="tearDown" finished-at="2024-03-19T18:13:40 EDT" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:01 EDT" name="tearDown" finished-at="2024-06-08T12:40:01 EDT" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:40 EDT" name="loginSetup" finished-at="2024-03-19T18:13:43 EDT" duration-ms="3782" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:01 EDT" name="loginSetup" finished-at="2024-06-08T12:40:07 EDT" duration-ms="5064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:43 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-03-19T18:13:44 EDT" duration-ms="1051" status="PASS">
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:07 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-06-08T12:40:08 EDT" duration-ms="1487" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -565,15 +565,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:44 EDT" name="tearDown" finished-at="2024-03-19T18:13:45 EDT" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:08 EDT" name="tearDown" finished-at="2024-06-08T12:40:08 EDT" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:45 EDT" name="loginSetup" finished-at="2024-03-19T18:13:49 EDT" duration-ms="4151" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:08 EDT" name="loginSetup" finished-at="2024-06-08T12:40:13 EDT" duration-ms="4474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:49 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-03-19T18:13:50 EDT" duration-ms="1289" status="PASS">
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:13 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-06-08T12:40:14 EDT" duration-ms="1291" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -589,15 +589,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:50 EDT" name="tearDown" finished-at="2024-03-19T18:13:50 EDT" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:14 EDT" name="tearDown" finished-at="2024-06-08T12:40:14 EDT" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:50 EDT" name="loginSetup" finished-at="2024-03-19T18:13:54 EDT" duration-ms="3649" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:14 EDT" name="loginSetup" finished-at="2024-06-08T12:40:19 EDT" duration-ms="4694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:54 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-03-19T18:13:55 EDT" duration-ms="1062" status="PASS">
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:19 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-06-08T12:40:20 EDT" duration-ms="1257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -613,15 +613,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:55 EDT" name="tearDown" finished-at="2024-03-19T18:13:55 EDT" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:20 EDT" name="tearDown" finished-at="2024-06-08T12:40:20 EDT" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:55 EDT" name="loginSetup" finished-at="2024-03-19T18:13:59 EDT" duration-ms="3923" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:20 EDT" name="loginSetup" finished-at="2024-06-08T12:40:25 EDT" duration-ms="4767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:13:59 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-03-19T18:14:00 EDT" duration-ms="1179" status="PASS">
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:25 EDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-06-08T12:40:27 EDT" duration-ms="1500" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -637,55 +637,55 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:14:00 EDT" name="tearDown" finished-at="2024-03-19T18:14:00 EDT" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:27 EDT" name="tearDown" finished-at="2024-06-08T12:40:27 EDT" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:14:00 EDT" name="loginSetup" finished-at="2024-03-19T18:14:04 EDT" duration-ms="4057" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:27 EDT" name="loginSetup" finished-at="2024-06-08T12:40:32 EDT" duration-ms="4838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidEmailInvalidPassword()[pri:2, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:14:04 EDT" name="verifyLoginWithValidEmailInvalidPassword" finished-at="2024-03-19T18:14:05 EDT" duration-ms="808" status="PASS">
+        <test-method signature="verifyLoginWithValidEmailInvalidPassword()[pri:2, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:32 EDT" name="verifyLoginWithValidEmailInvalidPassword" finished-at="2024-06-08T12:40:33 EDT" duration-ms="1058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidEmailInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:14:05 EDT" name="tearDown" finished-at="2024-03-19T18:14:05 EDT" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:33 EDT" name="tearDown" finished-at="2024-06-08T12:40:33 EDT" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:14:05 EDT" name="loginSetup" finished-at="2024-03-19T18:14:09 EDT" duration-ms="3867" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:33 EDT" name="loginSetup" finished-at="2024-06-08T12:40:37 EDT" duration-ms="4436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithInvalidEmailValidPassword()[pri:3, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:14:09 EDT" name="verifyLoginWithInvalidEmailValidPassword" finished-at="2024-03-19T18:14:10 EDT" duration-ms="833" status="PASS">
+        <test-method signature="verifyLoginWithInvalidEmailValidPassword()[pri:3, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:37 EDT" name="verifyLoginWithInvalidEmailValidPassword" finished-at="2024-06-08T12:40:38 EDT" duration-ms="1059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidEmailValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:14:10 EDT" name="tearDown" finished-at="2024-03-19T18:14:10 EDT" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:38 EDT" name="tearDown" finished-at="2024-06-08T12:40:39 EDT" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:14:10 EDT" name="loginSetup" finished-at="2024-03-19T18:14:14 EDT" duration-ms="3709" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:39 EDT" name="loginSetup" finished-at="2024-06-08T12:40:43 EDT" duration-ms="4747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithInvalidCredentials()[pri:4, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:14:14 EDT" name="verifyLoginWithInvalidCredentials" finished-at="2024-03-19T18:14:15 EDT" duration-ms="849" status="PASS">
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:4, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:43 EDT" name="verifyLoginWithInvalidCredentials" finished-at="2024-06-08T12:40:44 EDT" duration-ms="1013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:14:15 EDT" name="tearDown" finished-at="2024-03-19T18:14:15 EDT" duration-ms="106" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:44 EDT" name="tearDown" finished-at="2024-06-08T12:40:45 EDT" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:14:15 EDT" name="loginSetup" finished-at="2024-03-19T18:14:19 EDT" duration-ms="3779" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:45 EDT" name="loginSetup" finished-at="2024-06-08T12:40:49 EDT" duration-ms="4771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:14:19 EDT" name="verifyLoginWithNoCredentials" finished-at="2024-03-19T18:14:20 EDT" duration-ms="907" status="PASS">
+        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:49 EDT" name="verifyLoginWithNoCredentials" finished-at="2024-06-08T12:40:51 EDT" duration-ms="1118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithNoCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@5149d738]" started-at="2024-03-19T18:14:20 EDT" name="tearDown" finished-at="2024-03-19T18:14:20 EDT" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@34e9fd99]" started-at="2024-06-08T12:40:51 EDT" name="tearDown" finished-at="2024-06-08T12:40:51 EDT" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
